@@ -115,7 +115,7 @@ loop do
     ranking.update_team_points
     ranking.write_file
     ranking.show_data
-    p "The file has been created successfully!, check file in root folder as expected-output.txt"
+    p "The file has been created successfully!, check file in root folder as output.txt"
     print prompt
 
   else
